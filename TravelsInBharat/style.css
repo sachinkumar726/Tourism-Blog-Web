@@ -1,0 +1,115 @@
+body{
+    margin: 0%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(194,194,194,1) 42%, rgba(0,212,255,1)100%);
+    min-height: 100vh;
+
+}
+.carousel1{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+nav{
+    background-color:none;
+    justify-content: center;
+}
+nav a {
+   
+    color: rgb(19, 20, 21);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+};
+.navbar{   
+    float: left;
+    margin-right: 20px;   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 50px;
+    
+}
+hr{
+    border: 5px solid rgb(9, 9, 12);
+    border-radius: 5px;
+
+}
+li{
+    list-style: none;
+}
+nav a:hover{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1)100%);
+    color: rgb(250, 190, 131);
+}
+nav a:visited{
+    color: rgb(170, 81, 54);
+}
+.logo{
+    color: rgb(17, 21, 25);
+    text-align: center;
+    
+}
+.card1{
+
+    width: 250px;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+table{
+    table-layout: auto;
+    border-radius: 5;
+}
+.line1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(24, 11, 83);
+    color: aliceblue;
+    font-weight: 5;
+    
+}
+section{
+    height: 300px;
+    border-color: black;
+    background-color: lightblue;
+    margin: 0px;
+}
+.image1{
+    height: auto;
+    width: 250px;
+    border-radius: 20px;
+    float: right;
+    margin-right: 50px;
+}
+
+footer{
+    background-color: rgb(84, 103, 122);
+    
+}
+.footer{
+
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+
+}
+.footer > div{
+    width: 220px;
+}
+
+footer .footer-rights{
+
+        text-align: center;
+        color: rgb(40, 40, 96);
+        padding: 12px;
+}
+
+.card1:hover{
+    overflow-x:visible;
+}
